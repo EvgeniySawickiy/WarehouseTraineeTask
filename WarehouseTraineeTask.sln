@@ -5,11 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseTraineeTask", "WarehouseTraineeTask\WarehouseTraineeTask.csproj", "{F3631DD7-1AB4-4FC6-A8DA-221F5FCE71A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTraineeTask.Application", "WarehouseTraineeTask.Application\WarehouseTraineeTask.Application.csproj", "{A0FF8FB0-60DB-448F-8584-6DFC8EB8587C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseTraineeTask.Application", "WarehouseTraineeTask.Application\WarehouseTraineeTask.Application.csproj", "{A0FF8FB0-60DB-448F-8584-6DFC8EB8587C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTraineeTask.Domain", "WarehouseTraineeTask.Domain\WarehouseTraineeTask.Domain.csproj", "{610C788A-BF63-417C-986A-E7295D663BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseTraineeTask.Domain", "WarehouseTraineeTask.Domain\WarehouseTraineeTask.Domain.csproj", "{610C788A-BF63-417C-986A-E7295D663BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTraineeTask.Infrastructure", "WarehouseTraineeTask.Infrastructure\WarehouseTraineeTask.Infrastructure.csproj", "{64C75A93-B4D6-4378-88C0-3FF4B8C0AD0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseTraineeTask.Infrastructure", "WarehouseTraineeTask.Infrastructure\WarehouseTraineeTask.Infrastructure.csproj", "{64C75A93-B4D6-4378-88C0-3FF4B8C0AD0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseTraineeTask.Tests", "WarehouseTraineeTask.Tests\WarehouseTraineeTask.Tests.csproj", "{304A9B69-2A9C-4788-85F3-9F13F293CEA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{64C75A93-B4D6-4378-88C0-3FF4B8C0AD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C75A93-B4D6-4378-88C0-3FF4B8C0AD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C75A93-B4D6-4378-88C0-3FF4B8C0AD0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304A9B69-2A9C-4788-85F3-9F13F293CEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304A9B69-2A9C-4788-85F3-9F13F293CEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304A9B69-2A9C-4788-85F3-9F13F293CEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304A9B69-2A9C-4788-85F3-9F13F293CEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
